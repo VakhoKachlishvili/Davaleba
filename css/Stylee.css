@@ -18,31 +18,14 @@ header {
 	max-width: 1300px;
 	margin:auto;
 	font-family: 'BPG Arial Caps', sans-serif;	
-	min-width: 1300px;
 	padding:30px 0px;
-
-}
-#logo {
-	display: inline-block;
-	width: 200px;
-	float:left;
-	
 }
 .clear {
 	clear:both;
 }
-#banner {
-	padding: 50px 60px;
-	box-sizing: border-box;
-	background-color: #E6E6E6;
-	width: 100%;
-	padding-left: 50px;
-	height:100%;
-
-}
 nav {
 	display: inline-block;
-	width:80%;
+	width:78%;
 	padding-left: 50px;
 	float:right;
 	line-height: 90px;
@@ -58,8 +41,6 @@ ul li {
 	max-width: 1300px;
 	display: block;
 	margin:auto;
-
-
 }
 #media h2 {
 	display:inline;
@@ -102,53 +83,57 @@ p 	{
     width: 70%;
     margin-bottom: 10px;
 }
-.article-container {
+    .article-container {
  padding-top: 50px;
 }
-.icon-social{
-	padding-top: 80px;
-	width: 70px;
+#logo {
+	display: inline-block;
+	width: 200px;
+	float:left;
+}
+.main-container {
+	max-width: 1300px;
+	width: 100%;
+	padding-left: 65px;
+	padding-right: 65px;
+}
+.images {
+	width: 25%;	
+	float:left;
+	margin:auto;
+	padding-left: 1%;
+	padding-right: 1%;
+	/*margin-top: 70px;*/
+}
+.images a {
+	display:block;
+}.images a img {
+	width: 100%;
+}
+.images h1 {
+	background-color: #FFF;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	margin-top: -2px;
 	padding-left: 10px;
-	height: 110px;
 }
-.video-frame {
-	color: #FFF;
-	width: 48%;
-	height: 320px;
-
+#news {
+  background-color: #BECCD4;
+  padding-top: 70px;
 }
-#video {
-	background-color: #363E97;
-	color:#fff;
-	margin-top:50px ;
+.button {
+	margin-top: 70px;
+	background-color: #83939B;
+	margin-bottom: 70px; 
 }
-.video-container {
-	position: relative;
-	background-color: #F2F2F2;
-	margin-top: 20px;
-	padding-left: 30px;
-	padding-bottom: 30px:;
-
+.media-flex-container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
 }
- #last-child {
-	position: absolute;
-	right:0px;
-    top: 0px;
-    background-color:red;
-}
-#video h2 {
-	display: inline;
-	padding-right: 20px;
-      :80px;
-	padding-left: 50px; 
-}
-#video h3 {
-	position: relative;
-	top:150px;
-	left:75px;
-}
-#News {
-	background-color: #BDCCD4;
-	margin-top: 100px;
-	display: inline;
+.media-flex-container > div {
+	display: flex;
+	background-color: blue;
+	height: 360px;
+	width: 49%;
 }

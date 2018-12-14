@@ -104,11 +104,13 @@ p 	{
 	padding-left: 1%;
 	padding-right: 1%;
 	/*margin-top: 70px;*/
+	/*box-shadow: 15px 15px 15px red;*/
 }
 .images a {
 	display:block;
 }.images a img {
 	width: 100%;
+	box-shad
 }
 .images h1 {
 	background-color: #FFF;
@@ -136,4 +138,35 @@ p 	{
 	background-color: blue;
 	height: 360px;
 	width: 49%;
+}
+@media only screen and (max-width: 640px) {
+     body {
+     	max-width: 640px;
+     }
+     ul li {
+     	display: none;
+     }
+     .images {
+     	float: none;
+     }
+     #news div {
+     	width: 100%;
+     }
+     .main-container {
+     	padding-left: 20px;
+     	padding-right: 20px;
+     }
+     #media {
+     	padding-top: 20px;
+     }
+     #media article {
+     	width: 100%;
+     	padding-bottom: 20px;
+     	margin-bottom: 10px; 
+     }
+
+ 
+
+
+
 }
